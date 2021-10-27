@@ -19,10 +19,13 @@ The trial enrolled 30,420 volunteers who were randomly assigned in a 1:1 ratio t
 ```{r}
 groupsize = 30420
 subgp = groupsize/2
-vacine = c(subgp-11,11)
+vaccine = c(subgp-11,11)
 placebo =  c(subgp-185,185)
-results = as.table(cbind(vacine,placebo))
-rownames(results) <- c("none","covid")
+#results = as.table(cbind(vaccine,placebo))
+#rownames(results) <- c("none","covid")
+results = as.table(cbind(placebo,vaccine))
+rownames(results) <- c('none', 'covid')
+
 
 ```
 
