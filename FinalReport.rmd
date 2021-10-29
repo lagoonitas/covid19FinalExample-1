@@ -1,6 +1,6 @@
 ---
 title: "Covid19 vaccine study Final2021"
-author: "Dr "
+author: " Abel "
 date: "Summer 2021"
 output:
    html_document:
